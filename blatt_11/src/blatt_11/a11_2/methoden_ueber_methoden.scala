@@ -38,7 +38,7 @@ object methoden_ueber_methoden extends App {
   // flatMap
   // Builds a new collection by applying a function to all 
   // elements of this list and using the elements of the
-  resulting collections.
+  // resulting collections.
   
   // dropWhile
   // Drops longest prefix of elements that satisfy a predicate. 
