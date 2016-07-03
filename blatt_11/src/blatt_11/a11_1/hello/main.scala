@@ -1,4 +1,4 @@
-package blatt_11.hello_11_1
+package blatt_11.a11_1.hello
 
 object main extends App {
   println("Calling JCalculator methods...")
