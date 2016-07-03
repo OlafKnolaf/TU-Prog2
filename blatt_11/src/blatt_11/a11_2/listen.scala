@@ -27,7 +27,8 @@ object listen extends App {
   val list = listBuffer.toList.filter { x => x.age < 18 }
   list.foreach { x => println(x.age) }
 
-  // Fügen Sie weitere minderjährige Personen zur Liste hinzu.
+  // Fügen Sie weitere minderjährige Personen zur Liste
+  // hinzu.
   listBuffer.clear()
   listBuffer.appendAll(list)
   listBuffer += new Person("b", 7)

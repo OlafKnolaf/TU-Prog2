@@ -7,4 +7,6 @@ object main extends App {
   println(JCalculator.mult(3, 4))
   println(JCalculator.div(3, 4))
   println(JCalculator.round(3.4))
+  
+  JCalculator.div(0, 0)
 }

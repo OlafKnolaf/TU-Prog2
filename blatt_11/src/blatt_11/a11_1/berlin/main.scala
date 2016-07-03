@@ -8,7 +8,6 @@ object main extends App {
 
   val einwohnerzahl = Source.fromFile(filename).
     getLines.
-    toStream.
     drop(1).
     map((s: String) => new CSVDataEntry(s)).
     map((e: CSVDataEntry) => e.getHauefigkeit.toInt).
